@@ -1,0 +1,7 @@
+{
+    "interval": 100, 
+    "proxy": {
+        "http": "http://localhost:8080",
+        "https": "http://localhost:8080"
+    }
+}
