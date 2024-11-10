@@ -1,12 +1,11 @@
 import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
+from datetime import datetime
 import json
 import asyncio
 import signal
 import sys
-from datetime import datetime
 import logging
-from datetime import datetime
 import csv
 
 def load_config():
@@ -60,7 +59,8 @@ def save_data(data):
 # Function to fetch data from the website
 async def fetch_data():
     options = uc.ChromeOptions()
-    #options.add_argument(f'--proxy-server={proxy}')
+    if proxy:
+        options.add_argument(f'--proxy-server={proxy}')
     
     try:
         driver = uc.Chrome(options=options)
@@ -83,9 +83,11 @@ async def fetch_data():
         
         save_data(scraped_data)
         logging.info(f"Data scraped successfully - Time: {datetime.now()}, Count: {len(scraped_data)}, Status: Success")
+        print(f"Data scraped successfully - Time: {datetime.now()}, Count: {len(scraped_data)}, Status: Success")
         
     except Exception as e:
         logging.error(f"Error fetching data: {e}")
+        print(f"Error fetching data: {e}")
         save_data([])
         
     finally:
@@ -100,5 +102,7 @@ try:
     asyncio.run(main())
 except Exception as e:
     logging.error(f"Script terminated unexpectedly: {e}")
+    print(f"Script terminated unexpectedly: {e}")
 finally:
     logging.info("Script exited.")
+    print("Script exited.")

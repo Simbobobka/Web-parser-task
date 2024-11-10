@@ -1,0 +1,31 @@
+2024-11-09 22:30:25,617 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:30:29,840 - INFO - Data scraped successfully - Time: 2024-11-09 22:30:29.840991, Count: 323, Status: Success
+2024-11-09 22:30:37,568 - INFO - Script terminated by user.
+2024-11-09 22:30:37,569 - INFO - Script exited.
+2024-11-09 22:31:28,153 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:31:32,606 - INFO - Data scraped successfully - Time: 2024-11-09 22:31:32.605219, Count: 323, Status: Success
+2024-11-09 22:36:33,504 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:36:39,648 - INFO - Data scraped successfully - Time: 2024-11-09 22:36:39.648026, Count: 323, Status: Success
+2024-11-09 22:41:40,545 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:41:46,053 - INFO - Data scraped successfully - Time: 2024-11-09 22:41:46.053986, Count: 323, Status: Success
+2024-11-09 22:46:46,897 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:46:53,332 - INFO - Data scraped successfully - Time: 2024-11-09 22:46:53.332630, Count: 323, Status: Success
+2024-11-09 22:51:54,259 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:51:59,751 - INFO - Data scraped successfully - Time: 2024-11-09 22:51:59.751393, Count: 323, Status: Success
+2024-11-09 22:57:00,576 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 22:57:06,398 - INFO - Data scraped successfully - Time: 2024-11-09 22:57:06.398635, Count: 323, Status: Success
+2024-11-09 23:02:07,253 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 23:02:12,835 - INFO - Data scraped successfully - Time: 2024-11-09 23:02:12.835740, Count: 323, Status: Success
+2024-11-09 23:07:13,661 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 23:07:19,027 - INFO - Data scraped successfully - Time: 2024-11-09 23:07:19.027761, Count: 323, Status: Success
+2024-11-09 23:12:19,811 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 23:12:25,301 - INFO - Data scraped successfully - Time: 2024-11-09 23:12:25.301269, Count: 323, Status: Success
+2024-11-09 23:17:25,449 - ERROR - Error fetching data: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-11-09 23:17:25,488 - ERROR - Script terminated unexpectedly: cannot access local variable 'driver' where it is not associated with a value
+2024-11-09 23:17:25,489 - INFO - Script exited.
+2024-11-09 23:18:07,412 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 23:18:11,493 - INFO - Data scraped successfully - Time: 2024-11-09 23:18:11.493180, Count: 323, Status: Success
+2024-11-09 23:23:12,417 - INFO - patching driver executable C:\Users\tomas\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-09 23:23:16,511 - INFO - Data scraped successfully - Time: 2024-11-09 23:23:16.511275, Count: 323, Status: Success
+2024-11-09 23:26:28,806 - INFO - Script terminated by user.
+2024-11-09 23:26:28,807 - INFO - Script exited.
