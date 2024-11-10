@@ -23,12 +23,15 @@ This project is a robust web scraper designed to gather data from DeFi Llama’s
 #### Key Features
 
 __Periodic Data Collection__
+
 The scraper runs at configurable intervals (default: every 5 minutes), allowing continuous data collection without manual intervention. This interval is easily adjustable through a configuration file to suit different data refresh requirements.
 
 __Proxy Support__
+
 To enhance anonymity and avoid request blocks, the scraper supports the use of proxies. The proxy server can be configured directly from a settings file, allowing dynamic adjustments based on network or privacy requirements.
 
 __Data Persistence and Structure__
+
 Each data fetch is saved as an entry in a __JSON/CSV__ file, maintaining a structured format that includes:
 
 - __Timestamp__: The time when the data was retrieved.
@@ -38,6 +41,7 @@ Each data fetch is saved as an entry in a __JSON/CSV__ file, maintaining a struc
 This format allows for easy tracking of data over time, supports debugging, and provides context for each entry.
 
 __Error Handling and Logging__
+
 The project is equipped with detailed logging for tracking its actions, including:
 
 - __Connection Errors__: Logs issues related to connectivity and request failures.
